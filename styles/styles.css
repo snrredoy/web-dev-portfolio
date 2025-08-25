@@ -185,3 +185,28 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
+/* what i do */
+
+.what-i-do{
+    margin: 130px 0;
+}
+
+.what-i-do-content{
+    text-align: center;
+}
+
+.what-i-do-content .description{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.what-i-do-item .item-img{
+    width: 44px;
+    height: 44px;
+}
+
+.what-i-do-item .item-img img{
+    width: 100%;
+    height: 100%;
+}
