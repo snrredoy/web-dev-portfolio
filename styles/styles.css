@@ -36,7 +36,7 @@
     line-height: 30px;
 }
 
-.key{
+.key, .subtitle{
     font-size: 16px;
     font-family: "Open Sans";
     font-weight: 400;
@@ -201,12 +201,33 @@ main{
     margin-bottom: 50px;
 }
 
+.what-i-do-items{
+    display: flex;
+    gap: 24px;
+}
+
+.what-i-do-item{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
 .what-i-do-item .item-img{
     width: 44px;
     height: 44px;
+    margin-bottom: 30px;
 }
 
 .what-i-do-item .item-img img{
     width: 100%;
     height: 100%;
+}
+
+.what-i-do-item .item-description .value{
+    margin-bottom: 20px;
+}
+
+.what-i-do-item .item-description .subtitle{
+    margin-bottom: 20px;
 }
