@@ -18,6 +18,38 @@
     color: #757575;
 }
 
+.bg-color{
+    background-color: #FFF8F3;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: normal;
+    font-family: "Open Sans";
+}
+
+.description{
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.key{
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.value{
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    line-height: 30px;
+}
+
 .btn-primary {
     border-radius: 5px;
     color: #fff;
@@ -28,11 +60,18 @@
     font-size: 20px;
     padding: 18px 35px;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 /* header */
 #header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: 3% top, bottom right;
+    background-position: 3% 30px, bottom right;
 }
 
 /* header nav */
@@ -53,7 +92,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 230px;
+    margin: 0px 230px;
+    padding: 50px 0 25px 0;
 }
 
 .header-nav ul li {
@@ -119,4 +159,29 @@
 
 .banner-content .banner-button{
     margin-right: 30px;
+}
+
+/* about us */
+#about-us{
+    margin-top: 130px;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+
+.about-us-container{
+    background-color: #FFF;
+    padding: 15px;
+    border: 1px solid #000;
+    /* gap: 30px; */
+}
+
+.about-us-content .title{
+    margin-bottom: 30px;
+}
+
+.about-us-items{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
