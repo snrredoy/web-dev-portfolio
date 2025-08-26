@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* global */
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -18,32 +18,33 @@
     color: #757575;
 }
 
-.bg-color{
-    background-color: #FFF8F3;
+.bg-color {
+    background-color: #fff8f3;
 }
 
-.title{
+.title {
     font-size: 35px;
     font-weight: bold;
     line-height: normal;
     font-family: "Open Sans";
 }
 
-.description{
+.description {
     font-size: 18px;
     font-family: "Open Sans";
     font-weight: 400;
     line-height: 30px;
 }
 
-.key, .subtitle{
+.key,
+.subtitle {
     font-size: 16px;
     font-family: "Open Sans";
     font-weight: 400;
     line-height: 30px;
 }
 
-.value{
+.value {
     font-size: 20px;
     font-family: "Open Sans";
     font-weight: 700;
@@ -61,14 +62,13 @@
     padding: 18px 35px;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-
 /* header */
-#header{
+#header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: 3% 30px, bottom right;
@@ -116,15 +116,14 @@ main{
 }
 
 /* header banner */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 35px 0 230px;
-
 }
 
-.banner-content{
+.banner-content {
     max-width: 585px;
 }
 
@@ -150,37 +149,37 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
-.fa-download, .fa-phone{
+.fa-download,
+.fa-phone {
     margin-right: 5px;
 }
 
-.banner-content .banner-button{
+.banner-content .banner-button {
     margin-right: 30px;
 }
 
 /* about us */
-#about-us{
+#about-us {
     margin-top: 130px;
     text-align: center;
     padding: 130px 150px;
 }
 
-
-.about-us-container{
-    background-color: #FFF;
+.about-us-container {
+    background-color: #fff;
     padding: 15px;
     border: 1px solid #000;
     /* gap: 30px; */
 }
 
-.about-us-content .title{
+.about-us-content .title {
     margin-bottom: 30px;
 }
 
-.about-us-items{
+.about-us-items {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -188,46 +187,102 @@ main{
 
 /* what i do */
 
-.what-i-do{
+.what-i-do {
     margin: 130px 0;
 }
 
-.what-i-do-content{
+.what-i-do-content {
     text-align: center;
 }
 
-.what-i-do-content .description{
+.what-i-do-content .description {
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.what-i-do-items{
+.what-i-do-items {
     display: flex;
     gap: 24px;
 }
 
-.what-i-do-item{
+.what-i-do-item {
     padding: 30px;
     border-radius: 5px;
-    background-color: #FFF;
+    background-color: #fff;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
 
-.what-i-do-item .item-img{
+.what-i-do-item .item-img {
     width: 44px;
     height: 44px;
     margin-bottom: 30px;
 }
 
-.what-i-do-item .item-img img{
+.what-i-do-item .item-img img {
     width: 100%;
     height: 100%;
 }
 
-.what-i-do-item .item-description .value{
+.what-i-do-item .item-description .value {
     margin-bottom: 20px;
 }
 
-.what-i-do-item .item-description .subtitle{
+.what-i-do-item .item-description .subtitle {
     margin-bottom: 20px;
+}
+
+/* Summary of resume */
+.resume {
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.resume .title {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.resume .resume-title {
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.resume .education-details,
+.experience-details {
+    margin-bottom: 30px;
+    padding-right: 70px;
+}
+
+.resume .education-details .education-details-title,
+.resume .experience-details .experience-details-title {
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.resume .education-details .education-details-subtitle,
+.resume .experience-details .experience-details-subtitle  {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.resume .btn-primary{
+    margin: 0 auto;
 }
