@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
 }
+
 /* common */
 .dark-one {
     color: #181818;
@@ -238,7 +239,7 @@ main {
     text-align: center;
 }
 
-.resume-content{
+.resume-content {
     display: flex;
     gap: 24px;
     margin-bottom: 50px;
@@ -275,11 +276,72 @@ main {
 }
 
 .resume .education-details .education-details-subtitle,
-.resume .experience-details .experience-details-subtitle  {
+.resume .experience-details .experience-details-subtitle {
     font-family: "Open Sans";
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 20px;
+}
+
+/* footer */
+.footer {
+    padding: 130px 230px;
+    background-color: #fff8f3;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.connect {
+    max-width: 550px;
+}
+
+.connect .connect-title {
+    margin-bottom: 25px;
+}
+
+.connect .connect-description {
+    margin-bottom: 30px;
+}
+
+.connect .connect-social img {
+    margin-right: 24px;
+}
+
+.message .message-title {
+    margin-bottom: 25px;
+}
+
+.message {
+    min-width: 450px;
+}
+
+.message .message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.message .message-form input[type="text"],
+textarea {
+    border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    padding: 18px 30px;
+    outline: none;
+}
+
+.message .message-form input[type="submit"] {
+    max-width: 150px;
+}
+
+.message .message-form input::placeholder {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
