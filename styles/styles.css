@@ -235,6 +235,7 @@ main {
 .resume {
     margin-top: 130px;
     margin-bottom: 110px;
+    text-align: center;
 }
 
 .resume-content{
@@ -281,8 +282,4 @@ main {
     font-weight: 600;
     line-height: normal;
     margin-bottom: 20px;
-}
-
-.resume .btn-primary{
-    margin: 0 auto;
 }
